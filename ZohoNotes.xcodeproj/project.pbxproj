@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B19750F1284CA03500EAD590 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19750F0284CA03500EAD590 /* SplashScreen.swift */; };
+		B19750F3284CA0B600EAD590 /* EntryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19750F2284CA0B600EAD590 /* EntryTabView.swift */; };
+		B19750F4284CA0B600EAD590 /* EntryTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19750F2284CA0B600EAD590 /* EntryTabView.swift */; };
+		B19750F7284CA34400EAD590 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19750F6284CA34400EAD590 /* Extension.swift */; };
+		B19750F8284CA34400EAD590 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19750F6284CA34400EAD590 /* Extension.swift */; };
 		B19F55442848CF80001CF9F4 /* ZohoNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B19F55312848CF7D001CF9F4 /* ZohoNotes.xcdatamodeld */; };
 		B19F55452848CF80001CF9F4 /* ZohoNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B19F55312848CF7D001CF9F4 /* ZohoNotes.xcdatamodeld */; };
 		B19F55462848CF80001CF9F4 /* ZohoNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55332848CF7D001CF9F4 /* ZohoNotesApp.swift */; };
@@ -17,9 +22,25 @@
 		B19F554B2848CF80001CF9F4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55352848CF7D001CF9F4 /* Persistence.swift */; };
 		B19F554C2848CF80001CF9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19F55362848CF80001CF9F4 /* Assets.xcassets */; };
 		B19F554D2848CF80001CF9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19F55362848CF80001CF9F4 /* Assets.xcassets */; };
+		B19F55582848CFAE001CF9F4 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55572848CFAE001CF9F4 /* NotesListView.swift */; };
+		B19F555B2848D1AD001CF9F4 /* NoteCoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F555A2848D1AD001CF9F4 /* NoteCoreDataHandler.swift */; };
+		B19F555D2848D36F001CF9F4 /* NoteLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F555C2848D36F001CF9F4 /* NoteLabelView.swift */; };
+		B19F555E2848D44B001CF9F4 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55572848CFAE001CF9F4 /* NotesListView.swift */; };
+		B19F555F2848D44F001CF9F4 /* NoteLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F555C2848D36F001CF9F4 /* NoteLabelView.swift */; };
+		B19F55612848D507001CF9F4 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55602848D507001CF9F4 /* AddNoteView.swift */; };
+		B19F55632848F94B001CF9F4 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F55622848F94B001CF9F4 /* ImagePickerView.swift */; };
+		B1C8A8FF284B6B5500BF2607 /* NotesGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8A8FE284B6B5500BF2607 /* NotesGroup.swift */; };
+		B1C8A901284B71AF00BF2607 /* NotesGroupGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8A900284B71AF00BF2607 /* NotesGroupGridView.swift */; };
+		B1D0139B284A52CE009CE420 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0139A284A52CE009CE420 /* NoteDetailView.swift */; };
+		B1D0139D284A5680009CE420 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0139C284A5680009CE420 /* NotesViewModel.swift */; };
+		B1D0139F284A5B2D009CE420 /* FullPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0139E284A5B2D009CE420 /* FullPhotoView.swift */; };
+		B1D013A1284A998A009CE420 /* APIFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D013A0284A998A009CE420 /* APIFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B19750F0284CA03500EAD590 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		B19750F2284CA0B600EAD590 /* EntryTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTabView.swift; sourceTree = "<group>"; };
+		B19750F6284CA34400EAD590 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		B19F55322848CF7D001CF9F4 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		B19F55332848CF7D001CF9F4 /* ZohoNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZohoNotesApp.swift; sourceTree = "<group>"; };
 		B19F55342848CF7D001CF9F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +49,17 @@
 		B19F553B2848CF80001CF9F4 /* ZohoNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZohoNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19F55412848CF80001CF9F4 /* ZohoNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZohoNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19F55432848CF80001CF9F4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B19F55572848CFAE001CF9F4 /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		B19F555A2848D1AD001CF9F4 /* NoteCoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCoreDataHandler.swift; sourceTree = "<group>"; };
+		B19F555C2848D36F001CF9F4 /* NoteLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteLabelView.swift; sourceTree = "<group>"; };
+		B19F55602848D507001CF9F4 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		B19F55622848F94B001CF9F4 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		B1C8A8FE284B6B5500BF2607 /* NotesGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesGroup.swift; sourceTree = "<group>"; };
+		B1C8A900284B71AF00BF2607 /* NotesGroupGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesGroupGridView.swift; sourceTree = "<group>"; };
+		B1D0139A284A52CE009CE420 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		B1D0139C284A5680009CE420 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		B1D0139E284A5B2D009CE420 /* FullPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPhotoView.swift; sourceTree = "<group>"; };
+		B1D013A0284A998A009CE420 /* APIFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B19750F5284CA32F00EAD590 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B19750F6284CA34400EAD590 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B19750F9284CAF6100EAD590 /* Photos Views */ = {
+			isa = PBXGroup;
+			children = (
+				B19F55622848F94B001CF9F4 /* ImagePickerView.swift */,
+				B1D0139E284A5B2D009CE420 /* FullPhotoView.swift */,
+			);
+			path = "Photos Views";
+			sourceTree = "<group>";
+		};
 		B19F552B2848CF7D001CF9F4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +109,10 @@
 		B19F55302848CF7D001CF9F4 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B19750F5284CA32F00EAD590 /* Extensions */,
+				B1D01399284A52AE009CE420 /* View Models */,
+				B19F55592848D0E4001CF9F4 /* Controllers */,
+				B19F55562848CF9A001CF9F4 /* Views */,
 				B19F55332848CF7D001CF9F4 /* ZohoNotesApp.swift */,
 				B19F55342848CF7D001CF9F4 /* ContentView.swift */,
 				B19F55352848CF7D001CF9F4 /* Persistence.swift */,
@@ -84,6 +137,39 @@
 				B19F55432848CF80001CF9F4 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		B19F55562848CF9A001CF9F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B19750F9284CAF6100EAD590 /* Photos Views */,
+				B19F55572848CFAE001CF9F4 /* NotesListView.swift */,
+				B19F555C2848D36F001CF9F4 /* NoteLabelView.swift */,
+				B19F55602848D507001CF9F4 /* AddNoteView.swift */,
+				B1D0139A284A52CE009CE420 /* NoteDetailView.swift */,
+				B1C8A900284B71AF00BF2607 /* NotesGroupGridView.swift */,
+				B19750F0284CA03500EAD590 /* SplashScreen.swift */,
+				B19750F2284CA0B600EAD590 /* EntryTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B19F55592848D0E4001CF9F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B19F555A2848D1AD001CF9F4 /* NoteCoreDataHandler.swift */,
+				B1D013A0284A998A009CE420 /* APIFetcher.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B1D01399284A52AE009CE420 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1D0139C284A5680009CE420 /* NotesViewModel.swift */,
+				B1C8A8FE284B6B5500BF2607 /* NotesGroup.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,10 +270,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D0139F284A5B2D009CE420 /* FullPhotoView.swift in Sources */,
+				B19750F3284CA0B600EAD590 /* EntryTabView.swift in Sources */,
+				B19F555D2848D36F001CF9F4 /* NoteLabelView.swift in Sources */,
 				B19F55442848CF80001CF9F4 /* ZohoNotes.xcdatamodeld in Sources */,
 				B19F554A2848CF80001CF9F4 /* Persistence.swift in Sources */,
 				B19F55462848CF80001CF9F4 /* ZohoNotesApp.swift in Sources */,
+				B19F55632848F94B001CF9F4 /* ImagePickerView.swift in Sources */,
+				B1D013A1284A998A009CE420 /* APIFetcher.swift in Sources */,
+				B19F55582848CFAE001CF9F4 /* NotesListView.swift in Sources */,
 				B19F55482848CF80001CF9F4 /* ContentView.swift in Sources */,
+				B19750F1284CA03500EAD590 /* SplashScreen.swift in Sources */,
+				B1C8A8FF284B6B5500BF2607 /* NotesGroup.swift in Sources */,
+				B1D0139B284A52CE009CE420 /* NoteDetailView.swift in Sources */,
+				B19750F7284CA34400EAD590 /* Extension.swift in Sources */,
+				B1C8A901284B71AF00BF2607 /* NotesGroupGridView.swift in Sources */,
+				B1D0139D284A5680009CE420 /* NotesViewModel.swift in Sources */,
+				B19F55612848D507001CF9F4 /* AddNoteView.swift in Sources */,
+				B19F555B2848D1AD001CF9F4 /* NoteCoreDataHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +298,11 @@
 				B19F55452848CF80001CF9F4 /* ZohoNotes.xcdatamodeld in Sources */,
 				B19F554B2848CF80001CF9F4 /* Persistence.swift in Sources */,
 				B19F55472848CF80001CF9F4 /* ZohoNotesApp.swift in Sources */,
+				B19750F4284CA0B600EAD590 /* EntryTabView.swift in Sources */,
+				B19F555F2848D44F001CF9F4 /* NoteLabelView.swift in Sources */,
+				B19F555E2848D44B001CF9F4 /* NotesListView.swift in Sources */,
 				B19F55492848CF80001CF9F4 /* ContentView.swift in Sources */,
+				B19750F8284CA34400EAD590 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
