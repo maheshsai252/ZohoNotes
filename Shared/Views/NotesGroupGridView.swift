@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//We can make use of new SwiftUI 4 APIs such as Grid and Layout along with Navigation stack announced in WWDC22
+
 struct NotesGroupGridView: View {
     
     @ObservedObject var notesViewModel: NotesViewModel
@@ -25,12 +27,6 @@ struct NotesGroupGridView: View {
             } else {
                 HStack {
                     ForEach(currentGroup.group, id: \.self) { columnData in
-//                        LazyVStack {
-//                            ForEach(columnData) {data in
-//
-//                            }
-//                        }
-                        // columndata[0]
                         NoteLabelView(note: columnData[0], notesViewModel: notesViewModel)
                     }
                 }

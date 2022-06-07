@@ -59,7 +59,7 @@ struct FullPhotoView: View {
                             .padding()
                             .overlay(
                                         RoundedRectangle(cornerRadius: 20)
-                                            .stroke(Color.primary, lineWidth: 2)
+                                            .stroke(notesViewModel.selectedNote == notesViewModel.temporaryNote ? Color.black : Color.blue, lineWidth: 2)
                                     )
                             .disabled(notesViewModel.selectedNote == notesViewModel.temporaryNote)
                             .padding()
@@ -78,7 +78,6 @@ struct FullPhotoView: View {
                 }
             }
         }
-       
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarBackButtonHidden(false)
         .toolbar {
@@ -93,6 +92,7 @@ struct FullPhotoView: View {
                         .resizable()
                         .frame(width: 30, height: 30, alignment: .center)
                         .clipShape(Circle())
+                        
                 }
             }
             ToolbarItemGroup(placement: .navigationBarLeading) {

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UIKit
+//import UIKit
 import SwiftUI
 
 class NotesViewModel: ObservableObject {
@@ -81,6 +81,7 @@ class NotesViewModel: ObservableObject {
     func goBack() {
         if let currentImageIndex = currentImageIndex, currentImageIndex-1 >= 0 {
             self.currentImageIndex = currentImageIndex - 1
+//            print(self.currentImageIndex,imageNotes[currentImageIndex-1].)
             self.selectedNote = imageNotes[currentImageIndex-1]
         }
     }
@@ -95,6 +96,7 @@ class NotesViewModel: ObservableObject {
     /// Reset to selected image
     func navigateToOriginal() {
         self.selectedNote = temporaryNote
+        self.currentImageIndex = self.imageNotes.firstIndex(where: {$0.id == temporaryNote?.id})
     }
     /// return if moving to next image possible
     func canGoFront() -> Bool {
@@ -114,6 +116,7 @@ class NotesViewModel: ObservableObject {
     /// - Parameter note: note
     func selectNote(note: Note) {
             selectedNote = note
+        
             showDetail = true
     }
     func clearSelection() {
